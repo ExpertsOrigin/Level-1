@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap" rel="stylesheet">
+    <title>landing page</title>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+
+        .container {
+            display: flex;
+            /* border: 2px solid black; */
+            height: 60px;
+            background-image: linear-gradient(45deg, rgb(241, 194, 105), rgb(228, 68, 228));
+
+        }
+
+        .menu_items {
+            display: flex;
+            width: 600px;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: 300px;
+            font-size: 18px;
+            /* border: 2px solid gray; */
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+
+        .image1 {
+            width: 100px;
+            margin-left: 300px;
+            margin-top: 5px;
+            margin-bottom: 5px;
+
+
+        }
+
+        .menu1 {
+            width: 75px;
+            background-color: orange;
+            margin-left: 30px;
+            /* display: flex;
+            flex-direction: column; */
+            padding-left: 5px;
+
+            z-index: 1;
+            line-height: 60px;
+            /* border: 1px solid red; */
+
+
+        }
+
+        hr {
+            width: 6px;
+
+        }
+
+        .vertical {
+            width: 1px;
+            height: 60px;
+            background-color: black;
+        }
+
+        .con {
+            display: flex;
+            /* border: 2px solid black; */
+            /* height: 60px; */
+            align-items: center;
+            background-image: linear-gradient(90deg, violet, orange);
+
+        }
+
+        .icons {
+            /* border: 1px solid black; */
+            display: flex;
+            position: relative;
+            left: 284.5px;
+            ;
+
+            width: 300px;
+            justify-content: space-evenly;
+            align-items: center;
+
+
+        }
+
+        a {
+            text-decoration: none;
+            align-items: center;
+        }
+
+        .contact {
+            display: flex;
+            position: relative;
+            left: 500px;
+            width: 300px;
+            /* border: 2px solid black; */
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .request {
+            position: relative;
+            border: 2px solid black;
+            border-radius: 20px;
+            padding: 3px;
+            left: 900px;
+            font-family: 'Oswald', sans-serif;
+
+        }
+
+        .image2 {
+            background-image: url(image.jpg);
+            height: 600px;
+            background-size: auto;
+        }
+
+        .para {
+            position: absolute;
+            top: 345px;
+            line-height: 50px;
+            width: 800px;
+            margin-left: 320px;
+        }
+
+        .vertical2 {
+            width: 3px;
+            height: 200px;
+            background-image: linear-gradient(orange, violet);
+            display: flex;
+            position: absolute;
+            top: 350px;
+            margin-left: 300px;
+        }
+
+        .p2 {
+            font-size: 40px;
+        }
+
+        button {
+            border-radius: 30px;
+            padding: 12px;
+            margin: 3px;
+        }
+
+        .btn1 {
+            box-shadow: -60px 0px rgb(243, 221, 221);
+            background-image: linear-gradient(45deg, violet, orange);
+            opacity: 0.6;
+        }
+
+        .btn2 {
+            box-shadow: 60px 0px rgb(223, 221, 221);
+            text-shadow: 60px 0px rgb(201, 200, 200);
+        }
+
+        .p1 {
+            text-shadow: 0px -10px rgb(209, 206, 206);
+        }
+
+        .p2 {
+            text-shadow: 420px 0px rgb(209, 207, 207);
+        }
+
+        .body {
+            display: flex;
+            /* border: 2px solid black; */
+            justify-content: center;
+            padding: 30px;
+            background-image: linear-gradient(45deg, violet, orange);
+        }
+
+        .circle {
+            border: 2px solid black;
+            border-radius: 20px;
+            width: 30px;
+            height: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px 0px 15px 0px;
+
+        }
+
+        .business {
+            /* border: 2px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+            line-height-step;
+        }
+
+        .team {
+            /* border: 2px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+        }
+
+        .time {
+            /* border: 2px solid black; */
+            display: flex;
+            flex-wrap: wrap;
+            width: 400px;
+        }
+
+        h2 {
+            margin: 12px 0px 0px 18px;
+        }
+
+        .main {
+            display: flex;
+            /* border: 10px solid yellow; */
+            width: 1280px;
+            justify-content: space-between;
+
+        }
+
+
+        .about {
+            /* border: 5px solid black; */
+            /* display: flex; */
+
+        }
+
+        .hr2 {
+            width: 80px;
+            /* border: 3px solid red; */
+            height: 4px;
+            background-image: linear-gradient(45deg, orange, violet);
+            position: relative;
+            left: 299px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .classic {
+            /* border: 2px solid black; */
+            width: 1500px;
+            display: flex;
+            /* justify-content: space-around; */
+            margin-left: 298px;
+
+        }
+
+        .para2 {
+            /* border: 3px solid black; */
+            width: 700px;
+            line-height: 27px;
+            /* margin: 10px; */
+        }
+
+        .image3 {
+            /* border: 2px solid black; */
+            margin-left: 150px;
+            margin-top: -30px;
+
+        }
+
+        .imgbox {
+            border: 7px solid transparent;
+            border-image: linear-gradient(45deg, orange, violet);
+            border-image-slice: 1;
+            width: 400px;
+            height: 70px;
+            position: absolute;
+            top: 1207px;
+            left: 1091px;
+            z-index: -1;
+        }
+
+        h1 {
+            position: relative;
+            left: 298px;
+            margin-top: 30px;
+            font-size: 40px;
+            width: 320px;
+        }
+
+        .img3 {
+            margin-top: -62px;
+            margin-left: 15px;
+        }
+
+        .services {
+            /* border: 2px solid black; */
+        }
+
+        .inner {
+            /* border: 2px solid black; */
+            width: 1490px;
+            height: 400px;
+            display: flex;
+            position: relative;
+            left: 281px;
+            justify-content: space-evenly;
+
+
+        }
+
+        .innermost {
+            /* border: 2px solid black; */
+            width: 470px;
+            height: 350px;
+        }
+
+        .inner .innermost img {
+            width: 450px;
+        }
+
+        .innermost p {
+            position: relative;
+            top: -25px;
+            left: 50px;
+            width: 168px;
+        }
+
+        i {
+            color: white;
+        }
+
+        .iconic {
+            /* border: 2px solid black; */
+            width: 38px;
+            height: 38px;
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(45deg, orange, violet);
+        }
+
+        .ip {
+            width: 220px;
+            height: 40px;
+            padding-top: 2.2px;
+            position: relative;
+            left: 230px;
+            bottom: 20px;
+            border-top-left-radius: 23px;
+            border-bottom-left-radius: 23px;
+            background-color: rgb(238, 237, 237);
+            box-shadow: 0px 3px green;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="icons">
+            <div class="vertical"></div>
+            <a href="#" class="fa fa-twitter"></a>
+            <div class="vertical"></div>
+            <a href="#" class="fa fa-instagram"></a>
+            <div class="vertical"></div>
+            <a href="#" class="fa fa-facebook"></a>
+            <div class="vertical"></div>
+            <a href="#" class="fa fa-youtube"></a>
+            <div class="vertical"></div>
+            <a href="#" class="fa fa-pinterest"></a>
+            <div class="vertical"></div>
+            <a href="#" class="fa fa-linkedin"></a>
+            <div class="vertical"></div>
+        </div>
+        <div class="contact">
+            <div class="num">
+                <a href="#" class="fa fa-phone"> +12 345 6789</a>
+            </div>
+            <div class="vertical" style="width: 1px; height: 25px;"></div>
+            <div class="mail">
+                <a href="#" class="fa fa-envelope"> diamond@gmail.com</a>
+            </div>
+        </div>
+        <div class="request">REQUEST A CONSULT</div>
+    </div>
+    <nav>
+        <div class="container">
+            <img class="image1" src="aesp.png" alt="">
+            <div class="menu_items">
+                <div class="menu">Home</div>
+                <hr>
+                <div class="menu">Blog</div>
+                <hr>
+                <div class="menu">Page</div>
+                <hr>
+                <div class="menu">Services</div>
+                <hr>
+                <div class="menu">Testimonials</div>
+                <hr>
+                <div class="menu">Contact</div>
+                <div class="menu1">Buy Now</div>
+            </div>
+
+        </div>
+    </nav>
+    <div>
+        <div class="image2"></div>
+        <div class="vertical2"></div>
+        <div class="para">
+            <p class="p1">WE ARE CREATIVE</p>
+            <p class="p2">CREATIVE DIGITAL AGENCY</p>
+            <p class="p3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus delectus numquam accusamus
+                doloremque laboriosam</p>
+            <button class="btn1">Read More</button>
+            <button class="btn2">Request a Consult</button>
+        </div>
+    </div>
+    <div class="body">
+        <div class="main">
+            <div class="business">
+                <div class="circle"><i class="fa fa-rocket"></i></div>
+
+                <h2>LAUNCH BUSINESS</h2>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias</p>
+                </div>
+            </div>
+            <div class="team">
+                <div class="circle"><i class="fa fa-headphones"></i></div>
+
+                <h2>ONLINE SUPPORT TEAM</h2>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias</p>
+                </div>
+            </div>
+            <div class="time">
+                <div class="circle"><i class="fa fa-clock-o"></i></div>
+
+                <h2>TIME MANAGEMENT</h2>
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="about">
+        <h1>ABOUT US</h1>
+        <hr class="hr2">
+        <div class="classic">
+            <div class="para2">
+                <p>15 years we passionate about achieving better results for our clients</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vitae animi quas nemo assumenda
+                    est
+                    eligendi autem fugiat consequatur magnam dolorem et non Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Incidunt vitae animi quas nemo assumenda est eligendi autem fugiat consequatur
+                    magnam
+                    dolorem et non Lorem ipsum dolor sit amet consectetur, adipisicing elit. Incidunt vitae animi quas
+                    nemo
+                    assumenda est eligendi autem fugiat consequatur magnam dolorem et nonLorem ipsum dolor sit amet
+                    consectetur, adipisicing elit. Incidunt vitae animi quas nemo assumenda est eligendi autem fugiat
+                    consequatur magnam dolorem et nonquia adipisci, nostrum ab minima mollitia suscipit molestias cumque
+                    maiores aperiam ullam?</p>
+                <button>Read More</button>
+            </div>
+            <div class="image3">
+                <img class="img3" src="smile.png" alt="">
+                <div class="imgbox"></div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="services">
+        <h1>OUR SERVICES</h1>
+        <hr class="hr2">
+        <div class="inner">
+            <div class="innermost"><img src="close.jpg" alt="">
+                <div>
+                    <div class="ip">
+                        <div class="iconic"><i class="fa fa-volume-up"></i>
+                        </div>
+                        <p>USER EXPERIENCE</p>
+                    </div>
+                </div>
+            </div>
+            <div class="innermost"><img src="group.jpg" alt="">
+                <div>
+                    <div class="ip">
+                        <div class="iconic"><i class="fa fa-volume-up"></i></div>
+                        <p>CREATIVE DESIGN</p>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div class="innermost"><img src="online.jpg" alt="">
+                    <div>
+                        <div class="ip">
+                            <div class="iconic"><i class="fa fa-volume-up"></i></div>
+                            <p>RETINA READY</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</body>
+
+</html>
